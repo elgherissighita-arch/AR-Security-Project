@@ -15,3 +15,15 @@ def get_info(name):
             "description": "No security information available"
         }
     )
+def check_object(detected_object):
+    name = detected_object["name"]
+    info = get_info(name)
+
+    return {
+        "name": name,
+        "confidence": detected_object.get("confidence", 0),
+        "status": info["status"],
+        "risk_score": info["risk_score"],
+        "role": info["role"],
+        "description": info["description"]
+    }
