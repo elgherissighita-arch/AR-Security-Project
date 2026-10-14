@@ -1,0 +1,43 @@
+{
+    "laptop": {
+        "role": "authorized device",
+        "risk_score": 10,
+        "status": "Allowed",
+        "description": "Authorized device in the secure area"
+    },
+
+    "cell phone": {
+        "role": "data leak risk",
+        "risk_score": 80,
+        "status": "Restricted",
+        "description": "Mobile phones are restricted in the secure area"
+    },
+
+    "bottle": {
+        "role": "equipment risk",
+        "risk_score": 60,
+        "status": "Not allowed",
+        "description": "Bottle is not allowed near equipment"
+    },
+
+    "cup": {
+        "role": "equipment risk",
+        "risk_score": 60,
+        "status": "Not allowed",
+        "description": "Cup is not allowed near equipment"
+    },
+
+    "person": {
+        "role": "access control",
+        "risk_score": 40,
+        "status": "Warning",
+        "description": "Person needs an access check"
+    },
+
+    "backpack": {
+        "role": "inspection required",
+        "risk_score": 50,
+        "status": "Inspection required",
+        "description": "Backpack must be inspected"
+    }
+}
