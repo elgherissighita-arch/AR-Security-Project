@@ -1,2 +1,8 @@
 __pycache__/
 *.pyc
+venv/
+images/
+outputs/
+*.pt
+*.mp4
+*.mov
